@@ -23,6 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  cozmotec,
+  vortexweb ,
+  quintustech,
+  campusconnect,
+  careplus,
+  krypt
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +52,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React  Developer",
     icon: mobile,
   },
   {
@@ -116,37 +122,24 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Developer",
+    company_name: "Cozmotec",
+    icon: cozmotec,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Feb 2024 - Jul 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developed a comprehensive SaaS recruitment platform designed to streamline candidate and client onboarding, compliance management,contract management, timesheet processing, and expense reimbursement.",
+      "Implemented features such as automated communication, contract generation, and seamless integration with accounting software via an openAPI. Contributed to a user-friendly interface and automated workflows, enhancing efficiency and accuracy in recruitment processes.",
+      "Cypress - Implemented automated tests using Cypress to ensure the reliability and functionality of the platform",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "VortexWeb",
+    icon: vortexweb,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Nov 2024 - Dec 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -156,10 +149,10 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Quintus Tech",
+    icon: quintustech,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Oct 2024 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,16 +191,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Campus Connect",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A social media platform designed specifically for campus communities, enhancing communication and engagement among students and faculty. The platform serves as a dynamic hub for campus related activities and personal interactions, fostering a vibrant online community and facilitating meaningful connections both inside and outside the classroom.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "appwrite",
         color: "green-text-gradient",
       },
       {
@@ -215,13 +208,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: campusconnect,
+    source_code_link: "https://github.com/Shashank-09/campusconnect",
   },
   {
-    name: "Job IT",
+    name: "Care Plus",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A healthcare management system with real-time SMS notification to streamline the tedious checkup process. This platform includes the authentication process, registration process, filling out personal information & medical history with your preferred doctor. It also includes a comprehensive admin panel for scheduling or cancelling appointments of any kind with SMS notifications.",
     tags: [
       {
         name: "react",
@@ -236,20 +229,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: careplus,
+    source_code_link: "https://github.com/Shashank-09/carePlus",
   },
   {
-    name: "Trip Guide",
+    name: "Krypt",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Created Krypt, a decentralized Web 3.0 platform with ReactJs and Solidity that enables safe and transparent Ethereum transfer for users.Created intuitive and connected with Metamask to facilitate smooth blockchain transactions. The platform uses smart contract to deliver a safe, decentralized experience and guarantees that every transaction is irreversible.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "blockchain",
         color: "green-text-gradient",
       },
       {
@@ -257,7 +250,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: krypt,
     source_code_link: "https://github.com/",
   },
 ];

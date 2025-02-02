@@ -25,10 +25,16 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import cozmotec from './company/cozmotec_logo.jpeg'
+import vortexweb from './company/vortexweb.png'
+import quintustech from './company/quintus_tech_logo.jpeg'
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import campusconnect from './campus2.png'
+import careplus from './careplus.png'
+import krypt from './krypt.png'
 
 export {
   logo,
@@ -55,8 +61,14 @@ export {
   meta,
   shopify,
   starbucks,
+  quintustech,
+  cozmotec,
+  vortexweb,
   tesla,
   carrent,
   jobit,
   tripguide,
+  campusconnect,
+  careplus,
+  krypt
 };
